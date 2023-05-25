@@ -23,7 +23,6 @@ INSTALLED_APPS = [
     # External Packages
     "rest_framework",
     # Internal Apps
-    
 ]
 
 MIDDLEWARE = [
@@ -55,8 +54,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = "drfecommerce.wsgi.application"
-
-
 
 
 # Password validation
