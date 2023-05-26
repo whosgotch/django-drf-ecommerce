@@ -2,6 +2,7 @@
 venv/
 .pytest_cache
 **__pycache__/
-db.sqlite
 .coverage
 .vscode
+htmlcov/
+db.sqlite3
