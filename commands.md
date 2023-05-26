@@ -7,3 +7,6 @@ pytest==7.3.1
 pytest-django==4.5.2
 drf-spectacular==0.26.2
 django-mptt
+coverage
+pytest-cov
+pytest-factorybot
