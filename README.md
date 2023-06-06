@@ -27,7 +27,9 @@ git clone https://github.com/whosgotch/django-drf-ecommerce.git
 python -m venv env
 ```
 3. Activate the virtual environment:
-*For Windows:*
+</br>
+<i>For Windows:</i>
+
 ```
 venv\Scripts\activate
 ```
