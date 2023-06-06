@@ -43,7 +43,18 @@ pip install -r requirements.txt
 ```
 python manage.py migrate
 ```
-6. Start the development server:
+6. Generate django secret key:
+```
+python manage.py shell
+from django.core.management.utils import get_random_secret_key
+print(get_random_secret_key())
+exit()
+```
+7. Created .env file in drfecommerce directory and copy in your secret key:
+```
+SECRET_KEY=your_secret_key
+```
+9. Start the development server:
 ```
 python manage.py runserver
 ```
@@ -57,4 +68,4 @@ pytest
 The tests utilize Pytest and Factoryboy to ensure the functionality is working as expected and to maintain code quality.
 
 ## Documentation 
-For detailed documentation on how to use and customize the project, please refer to the Documentation file.
+For detailed documentation on how to use and customize the project, please refer to the http://localhost:8000/api/schema/docs/
