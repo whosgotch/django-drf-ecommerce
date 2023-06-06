@@ -20,7 +20,7 @@ Make sure you have the following installed before proceeding:
 ## Setup and Installation
 1. Clone the repository:
 ```
-git clone
+git clone https://github.com/whosgotch/django-drf-ecommerce.git
 ```
 2. Create a virtual environment:
 ```
